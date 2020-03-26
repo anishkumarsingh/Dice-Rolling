@@ -1,0 +1,56 @@
+import random
+randNo = random.randint(1,6)
+print(randNo)
+choice = "Y"
+
+while choice == "Y" or choice == "y":
+    randNo = random.randint(1, 6)
+    if randNo == 1:
+        print(" --------------")
+        print("{              }")
+        print("{              }")
+        print("{      0       }")
+        print("{              }")
+        print("{              }")
+        print(" --------------")
+    if randNo == 2:
+        print(" --------------")
+        print("{              }")
+        print("{      0       }")
+        print("{      0       }")
+        print("{              }")
+        print("{              }")
+        print(" --------------")
+    if randNo == 3:
+        print(" --------------")
+        print("{              }")
+        print("{      0       }")
+        print("{      0       }")
+        print("{      0       }")
+        print("{              }")
+        print(" --------------")
+    if randNo == 4:
+        print(" --------------")
+        print("{              }")
+        print("{  0      0    }")
+        print("{  0      0    }")
+        print("{              }")
+        print("{              }")
+        print(" --------------")
+    if randNo == 5:
+        print(" --------------")
+        print("{              }")
+        print("{  0      0    }")
+        print("{     0        }")
+        print("{  0      0    }")
+        print("{              }")
+        print(" --------------")
+    if randNo == 6:
+        print(" --------------")
+        print("{              }")
+        print("{  0      0    }")
+        print("{  0      0    }")
+        print("{  0      0    }")
+        print("{              }")
+        print(" --------------")
+    choice = input("Press Y to roll Dice: ")
